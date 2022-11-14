@@ -59,8 +59,8 @@ public class Ortalama {
        double notOrtalama = toplam / 6.0;
        // Not ortamasını kullanıcın görebilmesi için ekrana yazdırıyoruz.
 
-       System.out.print("Derslerinizin Not Ortalaması:\t\t\t\t ") ;
-       System.out.println(notOrtalama);
+       System.out.println("Derslerinizin Not Ortalaması:\t\t\t\t " + notOrtalama) ;
+       //System.out.println(notOrtalama);
        boolean gecmeNotu = notOrtalama >= 60.0;
        String str = gecmeNotu ? "Ortalamanız 60.0 dan büyük olduğundan Sınıfı GEÇTİNİZ" : "Not Ortalamanız 60.0 dan küçük olduğundan Sınıfta KALDINIZ";
        System.out.print(str);
